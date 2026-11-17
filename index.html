@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Explore a new way to learn. Discover courses in design, development, data, and more with eCoach.">
+    <meta name="theme-color" content="#0633dc">
+    <title>eCoach — Learn today. Lead tomorrow.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://images.unsplash.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;450;500;550;600;650;700&family=Manrope:wght@400;500;600;650;700;750;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <div class="offer" id="offer">
+        <div>Get courses from <strong>$13.99</strong> for a limited time <span class="offer-divider">|</span> <span>A
+                special offer for new students</span> <a href="#courses">Explore courses ↗</a></div><button
+            class="offer-close" aria-label="Dismiss offer">×</button>
+    </div>
+    <header class="header">
+        <div class="container nav-wrap">
+            <a class="logo" href="#home" aria-label="eCoach home"><span class="logo-mark">e</span>Coach<span
+                    class="logo-dot">.</span></a>
+            <nav class="desktop-nav" aria-label="Main navigation">
+                <div class="nav-dropdown"><button class="nav-trigger">Demos <span>⌄</span></button>
+                    <div class="dropdown"><a href="#home">eLearning home</a><a href="#courses">Course academy</a><a
+                            href="#instructors">Expert coaching</a></div>
+                </div>
+                <div class="nav-dropdown"><button class="nav-trigger">All Pages <span>⌄</span></button>
+                    <div class="dropdown"><a href="#about">About us</a><a href="#instructors">Our instructors</a><a
+                            href="#faq">Frequently asked questions</a><a href="#learning">My learning</a></div>
+                </div>
+                <a href="#courses">Courses</a><a href="#shop">Shop</a><a href="#blog">Blog</a><a href="#contact">Contact
+                    Us</a>
+            </nav>
+            <div class="nav-actions"><button class="icon-button theme-toggle" aria-label="Switch color theme" title="Switch color theme">&#9789;</button><button class="icon-button search-toggle" aria-label="Search courses"><svg
+                        viewBox="0 0 24 24">
+                        <circle cx="10.8" cy="10.8" r="6.8" />
+                        <path d="m16 16 5 5" />
+                    </svg></button><a href="#cart" class="icon-button cart-button" aria-label="Shopping cart"><svg
+                        viewBox="0 0 24 24">
+                        <path d="M5 7h15l-2 10H7L4 3H1M8 21h.01M17 21h.01" />
+                    </svg><span id="cart-count">0</span></a><button class="btn btn-blue login-trigger">Login / Register
+                    <span>↗</span></button><button class="mobile-toggle icon-button" aria-label="Open navigation"
+                    aria-expanded="false">☰</button></div>
+        </div>
+        <nav class="mobile-nav" aria-label="Mobile navigation"><a href="#home">Home</a><a href="#courses">Courses</a><a
+                href="#about">About us</a><a href="#instructors">Instructors</a><a href="#shop">Shop</a><a
+                href="#blog">Blog</a><a href="#contact">Contact us</a><a href="#learning">My learning</a><button
+                class="login-trigger">Login / Register ↗</button></nav>
+    </header>
+    <main id="app"></main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div><a class="logo" href="#home"><span class="logo-mark">e</span>Coach<span
+                            class="logo-dot">.</span></a>
+                    <p>Your next chapter starts with learning.<br>Let’s build something great together.</p>
+                    <div class="socials"><a href="https://www.facebook.com/" aria-label="Facebook" target="_blank"
+                            rel="noopener">f</a><a href="https://www.instagram.com/" aria-label="Instagram"
+                            target="_blank" rel="noopener">◎</a><a href="https://www.linkedin.com/"
+                            aria-label="LinkedIn" target="_blank" rel="noopener">in</a></div>
+                </div>
+                <div>
+                    <h4>Explore</h4><a href="#courses">Our courses</a><a href="#instructors">Our instructors</a><a
+                        href="#blog">Latest articles</a><a href="#shop">Learning resources</a>
+                </div>
+                <div>
+                    <h4>Get to know us</h4><a href="#about">About eCoach</a><a href="#contact">Contact us</a><a
+                        href="#faq">Help & FAQs</a><a href="#learning">My learning</a>
+                </div>
+                <div class="newsletter">
+                    <h4>A little inspiration in your inbox.</h4>
+                    <p>Learning tips, new courses, and fresh ideas.</p>
+                    <form id="newsletter-form"><label class="sr-only" for="newsletter-email">Email address</label><input
+                            id="newsletter-email" type="email" placeholder="Enter your email address" required><button
+                            aria-label="Subscribe">↗</button></form><small id="newsletter-message"
+                        aria-live="polite"></small>
+                </div>
+            </div>
+            <div class="footer-bottom"><span>© <span id="year"></span> eCoach. Educational demo inspired by Panze
+                    Studio.</span>
+                <div><a href="#privacy">Privacy policy</a><a href="#terms">Terms & conditions</a></div>
+            </div>
+        </div>
+    </footer>
+    <dialog id="modal" aria-label="eCoach information and forms"><button class="modal-close icon-button" aria-label="Close dialog">×</button>
+        <div id="modal-content"></div>
+    </dialog>
+    <div class="toast" role="status" aria-live="polite"></div>
+    <button class="back-top icon-button" aria-label="Back to top">↑</button>
+</body>
+
+</html>

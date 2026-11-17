@@ -1,0 +1,303 @@
+{
+  "passed": 74,
+  "total": 74,
+  "errors": [],
+  "results": [
+    {
+      "name": "Home renders eight course cards",
+      "passed": true
+    },
+    {
+      "name": "No horizontal overflow on desktop",
+      "passed": true
+    },
+    {
+      "name": "Home category filters courses",
+      "passed": true
+    },
+    {
+      "name": "Saving a course updates local storage",
+      "passed": true
+    },
+    {
+      "name": "Route courses renders",
+      "passed": true
+    },
+    {
+      "name": "Route course/web-development renders",
+      "passed": true
+    },
+    {
+      "name": "Route about renders",
+      "passed": true
+    },
+    {
+      "name": "Route instructors renders",
+      "passed": true
+    },
+    {
+      "name": "Route instructor/0 renders",
+      "passed": true
+    },
+    {
+      "name": "Route instructor/1 renders",
+      "passed": true
+    },
+    {
+      "name": "Route shop renders",
+      "passed": true
+    },
+    {
+      "name": "Route product/learning-journal renders",
+      "passed": true
+    },
+    {
+      "name": "Route cart renders",
+      "passed": true
+    },
+    {
+      "name": "Route blog renders",
+      "passed": true
+    },
+    {
+      "name": "Route article/leadership renders",
+      "passed": true
+    },
+    {
+      "name": "Route contact renders",
+      "passed": true
+    },
+    {
+      "name": "Route contact/instructor renders",
+      "passed": true
+    },
+    {
+      "name": "Route faq renders",
+      "passed": true
+    },
+    {
+      "name": "Route learning renders",
+      "passed": true
+    },
+    {
+      "name": "Route learn/python renders",
+      "passed": true
+    },
+    {
+      "name": "Route privacy renders",
+      "passed": true
+    },
+    {
+      "name": "Route terms renders",
+      "passed": true
+    },
+    {
+      "name": "Catalog keyword search",
+      "passed": true
+    },
+    {
+      "name": "Empty search state",
+      "passed": true
+    },
+    {
+      "name": "Reset filters restores nine courses",
+      "passed": true
+    },
+    {
+      "name": "Course Curriculum tab opens",
+      "passed": true
+    },
+    {
+      "name": "Course Instructor tab opens",
+      "passed": true
+    },
+    {
+      "name": "Course Reviews tab opens",
+      "passed": true
+    },
+    {
+      "name": "Course Overview tab opens",
+      "passed": true
+    },
+    {
+      "name": "Cart adds a course",
+      "passed": true
+    },
+    {
+      "name": "Checkout opens dialog",
+      "passed": true
+    },
+    {
+      "name": "Checkout enrolls the selected course and clears cart",
+      "passed": true
+    },
+    {
+      "name": "Lesson progress and reflection persist",
+      "passed": true
+    },
+    {
+      "name": "Demo profile opens without storing a password",
+      "passed": true
+    },
+    {
+      "name": "Contact form confirms demo submission",
+      "passed": true
+    },
+    {
+      "name": "Story slider moves to next story",
+      "passed": true
+    },
+    {
+      "name": "All local reference assets load",
+      "passed": true
+    },
+    {
+      "name": "No overflow: home at 320px",
+      "passed": true
+    },
+    {
+      "name": "No overflow: courses at 320px",
+      "passed": true
+    },
+    {
+      "name": "No overflow: course/web-development at 320px",
+      "passed": true
+    },
+    {
+      "name": "No overflow: contact at 320px",
+      "passed": true
+    },
+    {
+      "name": "No overflow: shop at 320px",
+      "passed": true
+    },
+    {
+      "name": "No overflow: instructors at 320px",
+      "passed": true
+    },
+    {
+      "name": "No overflow: learning at 320px",
+      "passed": true
+    },
+    {
+      "name": "No overflow: home at 375px",
+      "passed": true
+    },
+    {
+      "name": "No overflow: courses at 375px",
+      "passed": true
+    },
+    {
+      "name": "No overflow: course/web-development at 375px",
+      "passed": true
+    },
+    {
+      "name": "No overflow: contact at 375px",
+      "passed": true
+    },
+    {
+      "name": "No overflow: shop at 375px",
+      "passed": true
+    },
+    {
+      "name": "No overflow: instructors at 375px",
+      "passed": true
+    },
+    {
+      "name": "No overflow: learning at 375px",
+      "passed": true
+    },
+    {
+      "name": "No overflow: home at 768px",
+      "passed": true
+    },
+    {
+      "name": "No overflow: courses at 768px",
+      "passed": true
+    },
+    {
+      "name": "No overflow: course/web-development at 768px",
+      "passed": true
+    },
+    {
+      "name": "No overflow: contact at 768px",
+      "passed": true
+    },
+    {
+      "name": "No overflow: shop at 768px",
+      "passed": true
+    },
+    {
+      "name": "No overflow: instructors at 768px",
+      "passed": true
+    },
+    {
+      "name": "No overflow: learning at 768px",
+      "passed": true
+    },
+    {
+      "name": "No overflow: home at 1024px",
+      "passed": true
+    },
+    {
+      "name": "No overflow: courses at 1024px",
+      "passed": true
+    },
+    {
+      "name": "No overflow: course/web-development at 1024px",
+      "passed": true
+    },
+    {
+      "name": "No overflow: contact at 1024px",
+      "passed": true
+    },
+    {
+      "name": "No overflow: shop at 1024px",
+      "passed": true
+    },
+    {
+      "name": "No overflow: instructors at 1024px",
+      "passed": true
+    },
+    {
+      "name": "No overflow: learning at 1024px",
+      "passed": true
+    },
+    {
+      "name": "No overflow: home at 1440px",
+      "passed": true
+    },
+    {
+      "name": "No overflow: courses at 1440px",
+      "passed": true
+    },
+    {
+      "name": "No overflow: course/web-development at 1440px",
+      "passed": true
+    },
+    {
+      "name": "No overflow: contact at 1440px",
+      "passed": true
+    },
+    {
+      "name": "No overflow: shop at 1440px",
+      "passed": true
+    },
+    {
+      "name": "No overflow: instructors at 1440px",
+      "passed": true
+    },
+    {
+      "name": "No overflow: learning at 1440px",
+      "passed": true
+    },
+    {
+      "name": "Mobile navigation opens",
+      "passed": true
+    },
+    {
+      "name": "No uncaught JavaScript exceptions",
+      "passed": true
+    }
+  ]
+}
